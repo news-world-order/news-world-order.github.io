@@ -4,8 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
+body, html {
+   height: 100%;
+   width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -18,6 +19,17 @@ body {
   margin-bottom: 30px;
 }
 
-.pagination {
+.hero-img {
+  background: url('http://placehold.it/1920x1080') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  width: 100%;
+  height: 400px;
+
+  position: relative;
+
   margin-bottom: 30px;
 }
