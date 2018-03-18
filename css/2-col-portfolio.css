@@ -7,6 +7,7 @@
 body, html {
    height: 100%;
    width: 100%;
+   overflow-x: hidden;
 }
 
 @media (min-width: 992px) {
@@ -15,12 +16,9 @@ body, html {
   }
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
+/* HERO IMAGE */
 .hero-img {
-  background: url('http://placehold.it/1920x1080') no-repeat center center;
+  background: url('../assets/nwo-hero.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -32,4 +30,31 @@ body, html {
   position: relative;
 
   margin-bottom: 30px;
+}
+
+/* PORTFOLIO CARDS*/
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card, .card > * > * {
+  border-radius: 0px;
+}
+
+.card a{
+  visibility: hidden;
+}
+.card-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.card:hover a {
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  position: absolute;
 }
