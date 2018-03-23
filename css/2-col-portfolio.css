@@ -6,7 +6,7 @@
 
 /* COLORS*/
 .bg-dark{
-  background-color: #011A27 !important;
+  background-color: #fff !important;
 }
 
 /* GENERAL */
@@ -26,14 +26,14 @@ body, html {
 /* FONTS */
 body * {
   font-family: 'IBM Plex Mono', monospace;
-  color: #fff;
+  /* color: #fff; */
 }
 p {
   font-family: 'Roboto light', sans-serif;
 }
 a * , nav-link{
   font-family: 'IBM Plex Mono', monospace;
-  color: #E9FF44;
+  /* color: #E9FF44; */
 }
 
 /* HERO IMAGE */
@@ -83,6 +83,5 @@ a * , nav-link{
 footer {
   position: relative;
   bottom: 0px;
-
   font-size: 8pt;
 }
